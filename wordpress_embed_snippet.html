@@ -1,0 +1,18 @@
+<!--
+  Paste this into WordPress via one of:
+   - A "Custom HTML" block on the page/post
+   - Appearance > Theme File Editor > footer.php, just before </body>
+   - A "header/footer" plugin (WPCode, Insert Headers and Footers, etc.)
+
+  Change apiUrl below to wherever app.py is actually reachable from your
+  visitors' browsers (see README.md — local vs. tunnelled vs. hosted).
+-->
+<script>
+  window.BRAND_ASSISTANT_CONFIG = {
+    apiUrl: "http://localhost:5000",
+    brandName: "Your Brand",
+    greeting: "heyyy 👋 what can I help you find today?"
+  };
+</script>
+<link rel="stylesheet" href="http://localhost:5000/widget.css">
+<script src="http://localhost:5000/widget.js"></script>

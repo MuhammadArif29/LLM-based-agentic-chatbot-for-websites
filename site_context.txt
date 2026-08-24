@@ -1,0 +1,20 @@
+# Website info for the Brand Assistant
+#
+# Everything below this line is handed to the AI as background knowledge
+# about your business. It is plain text, always included in full — there's
+# no search/retrieval step (no RAG). Keep it focused: FAQs, policies, tone,
+# what you sell, shipping/returns, contact info. A few hundred words is
+# plenty; if this file grows past a couple thousand words, trim it down to
+# what customers actually ask about most.
+#
+# Delete these comment lines and replace the example below with your own
+# brand's real info.
+
+Brand name: [Your Brand]
+What we sell: [one or two sentences on your products/niche]
+Shipping: [typical shipping time, cost, regions covered]
+Returns/refunds: [your policy in a sentence or two]
+Payment methods: [cash on delivery, card, bank transfer, etc.]
+Contact: [support email / phone / WhatsApp]
+Store hours (if relevant): [e.g. Mon-Sat, 10am-7pm]
+Anything else customers commonly ask: [FAQ-style notes]
