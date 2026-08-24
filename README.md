@@ -7,7 +7,7 @@ text, no RAG — see below), and can look up products, place orders, and
 track orders on a WooCommerce store.
 
 ```
-echnify-chatbot/
+Brand-chatbot/
 ├── app.py                      # Flask server + Gemini chat + WooCommerce tools
 ├── requirements.txt
 ├── .env.example                # copy to .env and fill in
@@ -21,7 +21,7 @@ echnify-chatbot/
 ## 1. Install & configure
 
 ```bash
-cd echnify-chatbot
+cd Brand-chatbot
 python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
 pip install -r requirements.txt
